@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: 'Lucida Bright';
+    src: url(../fonts/LBRITE.TTF);
+}
+@font-face {
+    font-family: 'Lucida Bright';
+    src: url(../fonts/lucidabrightdemibold.ttf);
+}
+
+body{
+    font-family: 'Lucida Bright';
+    font-size: 16px;
+    background-color:#FFFFFF;
+    color: #863503;
+}
+.active{
+    border-bottom: 1.5px solid #056B11;
+    padding-bottom: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1155px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color:#FFFFFF;
+}
+header .inner-header nav ul li:not(:first-child){
+    margin:55px 0 55px 65px;
+}
+nav ul li a{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #863503;
+}
+header .inner-header .right-nav .search-bar{
+    position: relative;
+}
+header .inner-header .right-nav .search-bar img{
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    transition: .1s ease-in-out;
+}
+header .inner-header .right-nav .search-bar img:hover{
+    transform: scale(1.1);
+}
+input[type=search]{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+} 
+.search-bar:hover{
+    box-shadow: 5px 7px 20px #8635034b;
+    border-radius: 10px;
+}
+
+/* main */
+
+
+.coffee-container{
+    width: 80%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 315px;
+}
+.left-side{
+    width: 45%;
+    gap: 80px;
+}
+.coffee-container .left-side .coffee-info h2{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #863503;
+    margin: 110px 0 40px 0;
+}
+.coffee-container .left-side .coffee-info p{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #863503;
+    
+}
