@@ -177,6 +177,7 @@ input[type=search]{
 .specials-boxes img:hover{
     transform: scale(1.1);
     filter: drop-shadow(0.35rem 0.35rem 0.4rem #86350396);
+    cursor: pointer;
 }
 .specials-boxes .cocoa-box h5{
     font-family: 'Lucida Bright';
@@ -185,8 +186,9 @@ input[type=search]{
     font-size: 20px;
     line-height: 24px;
     color: #05520D;
-    margin: 25px 0 265px 0;
+    margin-top: 25px;
     transition: .1s ease-in-out;
+    cursor: pointer;
 }
 .specials-boxes .cocoa-box h5:hover{
     filter: drop-shadow(0.35rem 0.35rem 0.4rem #863503e8);
@@ -200,4 +202,80 @@ input[type=search]{
     line-height: 18px;
     color: #7D0202;
     margin-left: 35px;
+}
+.cocoa-btn{
+    border: 2px solid #05520D;
+    border-radius: 15px;
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 10px 25px;
+    margin-bottom:165px ;
+    margin-top: 60px;
+    margin-left: 85%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.cocoa-btn:hover{
+    background-color: #8635034f;
+}
+
+/* footer */
+footer{
+    background: #B78A6D3D;
+}
+.footer-info{
+    max-width: 1155px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10%;
+}
+.footer-socials{
+    padding: 100px 0 75px 0;
+    width: 145px;
+}
+.footer-socials svg{
+    cursor: pointer;
+}
+.footer-socials svg:hover{
+    transform: scale(1.1);
+}
+.footer-info .left-side {
+    width: 50%;
+}
+.left-side h4{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #400404;
+    padding-bottom: 35px;
+}
+.footer-info .right-side{
+    gap: 130px;
+    padding-top: 40px;
+}
+.footer-info .right-side h5{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #05520D;
+    padding-bottom:45px ;
+}
+.footer-info .right-side li {
+    padding-bottom: 30px;
+}
+.footer-info .right-side a{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #863503;
 }
