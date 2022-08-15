@@ -3,10 +3,6 @@
     font-family: 'Lucida Bright';
     src: url(../fonts/LBRITE.TTF);
 }
-@font-face {
-    font-family: 'Lucida Bright';
-    src: url(../fonts/lucidabrightdemibold.ttf);
-}
 
 body{
     font-family: 'Lucida Bright';
@@ -81,16 +77,27 @@ input[type=search]{
 
 /* main */
 
-
+.first-section{
+    width: 100%;
+}
 .coffee-container{
-    width: 80%;
+    /* max-width: 1440px; */
+    width: 100%;  
     float: right;
     margin-top: 100px;
-    margin-bottom: 315px;
+    padding-bottom: 315px;
+    padding-left: 10%;
+    background-color: #86350312;
 }
 .left-side{
-    width: 45%;
+    width: 35%;
     gap: 80px;
+}
+.coffee-logo img{
+    display: inline;
+}
+.coffee-logo img:hover{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem #8635034b);
 }
 .coffee-container .left-side .coffee-info h2{
     font-family: 'Lucida Bright';
@@ -110,4 +117,87 @@ input[type=search]{
     line-height: 28px;
     color: #863503;
     
+}
+.coffee-container .coffe-icons{
+    position: relative;
+    width: 65%;
+}
+.coffee-container .coffe-icons .ellipse{
+    position: absolute;
+    z-index: 59;
+    width: 80%;
+    top: -186px;
+    right: 0%;
+}
+.coffee-container .coffe-icons .coffee-cup-second{
+    position: absolute;
+    z-index: 69;
+}
+.coffee-container .coffe-icons .coffee-cup{
+    position: absolute;
+    z-index: 79;
+}
+.coffee-container .coffe-icons .coffee{
+    position: absolute;
+    z-index: 89;
+    width: 59%;
+    left: 41%;
+}
+.coffee-container .coffe-icons .coffee:hover{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(126, 59, 5));
+}
+.coffee-container .coffe-icons .coffee-cup-second{
+    width: 25%;
+    top: 2px;
+    right: 7%;
+}
+.coffee-container .coffe-icons .coffee-cup{
+    width: 28%;
+    top: -145px;
+    right: 26%;
+}
+
+/* specials section */
+
+.Specials h3{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #863503;
+    border-bottom: 1.5px solid #056B11;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.specials-boxes{
+    margin-top: 90px;
+    transition: 1s ease-in-out;
+}
+.specials-boxes img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem #86350396);
+}
+.specials-boxes .cocoa-box h5{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #05520D;
+    margin: 25px 0 265px 0;
+    transition: .1s ease-in-out;
+}
+.specials-boxes .cocoa-box h5:hover{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem #863503e8);
+
+}
+.specials-boxes .cocoa-box span{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7D0202;
+    margin-left: 35px;
 }
