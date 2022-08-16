@@ -14,6 +14,9 @@ body{
     border-bottom: 1.5px solid #056B11;
     padding-bottom: 5px;
 }
+.bottom-nav-active{
+        font-weight: bold;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -221,6 +224,60 @@ input[type=search]{
 }
 .cocoa-btn:hover{
     background-color: #8635034f;
+}
+
+/* menu page */
+
+.bottom-menu  a{
+    color: #863503B2;
+    margin-left: 30px;
+}
+.bottom-menu ul{
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+/* hot drinks */
+.hot-drinks-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 300px;
+    column-gap: 200px;
+    row-gap: 80px;
+    margin-bottom: 10%;
+}
+.hot-drinks-box{
+    display: flex;
+}
+.hot-drinks-box img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem #86350396);
+    cursor: pointer;
+}
+.hot-drinks-box .name-price{
+    margin-left: 60px;
+}
+.hot-drinks-box .name-price h4:hover{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem #863503e8);
+    cursor: pointer;
+}
+.hot-drinks-box .name-price h4{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #05520D;
+    margin-bottom: 25px;
+}
+.hot-drinks-box .name-price span{
+    font-family: 'Lucida Bright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7D0202;
+    margin-left: 100px;
 }
 
 /* footer */
