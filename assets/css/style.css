@@ -15,7 +15,7 @@ body{
     padding-bottom: 5px;
 }
 .bottom-nav-active{
-        font-weight: bold;
+    opacity: 0.6;
 }
 .flex{
     display: flex;
@@ -229,7 +229,8 @@ input[type=search]{
 /* menu page */
 
 .bottom-menu  a{
-    color: #863503B2;
+    /* color: #863503B2; */
+    opacity: 1;
     margin-left: 30px;
 }
 .bottom-menu ul{
