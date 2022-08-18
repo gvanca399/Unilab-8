@@ -138,6 +138,10 @@ input[type=search]{
     top: -186px;
     right: 0%;
 }
+.coffee-container .coffe-icons .ellipse:hover{
+    transform: scale(1.0);
+    
+}
 .coffee-container .coffe-icons .coffee-cup-second{
     position: absolute;
     z-index: 69;
@@ -145,6 +149,11 @@ input[type=search]{
 .coffee-container .coffe-icons .coffee-cup{
     position: absolute;
     z-index: 79;
+}
+.coffee-container .coffe-icons .coffee-cup{
+    transform: scale(1.0);
+    filter:none;
+    cursor: pointer;
 }
 .coffee-container .coffe-icons .coffee{
     position: absolute;
@@ -154,6 +163,7 @@ input[type=search]{
 }
 .coffee-container .coffe-icons .coffee:hover{
     filter: drop-shadow(0.35rem 0.35rem 0.4rem rgb(126, 59, 5));
+    transform: scale(1.0);
 }
 .coffee-container .coffe-icons .coffee-cup-second{
     width: 25%;
