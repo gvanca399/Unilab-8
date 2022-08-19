@@ -493,6 +493,7 @@ textarea {
 .message{
     text-align: center;
     margin-top: 300px ;
+    margin-bottom: 200px;
 }
 .message img{
     margin: 0 auto;
